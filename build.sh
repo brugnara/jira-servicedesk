@@ -6,5 +6,5 @@ wget https://downloads.mysql.com/archives/get/p/3/file/mysql-connector-java-$VER
 unzip *.zip
 cp mysql*/*.jar .
 
-docker build -t brugnara/jira-servicedesk:4.5.0 .
+docker build -t brugnara/jira-servicedesk:4.14.0 .
 rm -rf mysql*
